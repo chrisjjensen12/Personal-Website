@@ -1,5 +1,6 @@
 import "./styles.css";
 import NavBar from "./components/NavBar.jsx";
+import Stars from "./components/Stars.jsx";
 import { Route, Routes } from "react-router-dom";
 import Contact from "./pages/Contact.jsx";
 import Projects from "./pages/Projects.jsx";
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <Stars />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />

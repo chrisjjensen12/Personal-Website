@@ -4,17 +4,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #2d2d2d;
-}
-
-li, a, button {
+    background-color: rgba(45, 45, 45, 0.8); /* Use rgba to set the background color with opacity */
+  }
+  
+  li,
+  a,
+  button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px; /* Add "px" unit to the font size */
     color: #edf0f1;
     text-decoration: none;
-}
-
+  }
+  
 header {
     display: flex;
     justify-content: space-between;
